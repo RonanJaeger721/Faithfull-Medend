@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faithfull Medend | Online Clothing Store</title>
+  <meta name="description" content="Shop clothing from Faithfull Medend in Chegutu. Add items to cart, browse sourcing inspiration from Alibaba, and send your order on WhatsApp.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="Faithfull Medend home">
+      <span class="brand-mark">FM</span>
+      <span>
+        <strong>Faithfull Medend</strong>
+        <small>Clothing Store</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" data-nav>
+      <a href="#shop">Shop</a>
+      <a href="#how">How it works</a>
+      <a href="#contact">Contact</a>
+      <button class="cart-pill" type="button" data-cart-open>
+        <span>Cart</span>
+        <strong data-cart-count>0</strong>
+      </button>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Buying and selling clothing in Chegutu</p>
+        <h1>Clothes that feel selected, not random.</h1>
+        <p>Faithfull Medend helps you find stylish clothing for everyday wear, resale, family shopping, and special looks. Add your favorites, then send the cart on WhatsApp.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#shop">Start Shopping</a>
+          <a class="button ghost" href="https://www.alibaba.com/x/B21Psy?ck=pdp" target="_blank" rel="noopener">Browse Alibaba Source</a>
+        </div>
+      </div>
+      <div class="hero-media reveal">
+        <img src="assets/fashion-hero.png" alt="Premium clothing boutique display with curated garments">
+        <div class="floating-note">
+          <span>New sourcing link</span>
+          <strong>Alibaba-ready</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Store highlights">
+      <div class="ticker-track">
+        <span>Quality clothing</span>
+        <span>WhatsApp orders</span>
+        <span>Alibaba sourcing</span>
+        <span>Chegutu pickup</span>
+        <span>Bulk enquiries</span>
+        <span>Fresh selections</span>
+        <span>Quality clothing</span>
+        <span>WhatsApp orders</span>
+        <span>Alibaba sourcing</span>
+        <span>Chegutu pickup</span>
+      </div>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Shop clothing</p>
+        <h2>Add items to your cart, then confirm on WhatsApp.</h2>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card reveal" data-product data-name="Ladieswear selection" data-price="Ask for price">
+          <div class="product-image">
+            <img src="assets/ladieswear.png" alt="Ladieswear clothing selection">
+            <a href="https://www.alibaba.com/x/B21Psy?ck=pdp" target="_blank" rel="noopener">Source link</a>
+          </div>
+          <div class="product-info">
+            <span>Ladies</span>
+            <h3>Ladieswear selection</h3>
+            <p>Dresses, tops, blouses, skirts, and polished everyday pieces.</p>
+            <button class="button add" type="button" data-add>+ Add to cart</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-product data-name="Menswear smart casual" data-price="Ask for price">
+          <div class="product-image">
+            <img src="assets/menswear.png" alt="Menswear clothing selection">
+            <a href="https://www.alibaba.com/x/B21Psy?ck=pdp" target="_blank" rel="noopener">Source link</a>
+          </div>
+          <div class="product-info">
+            <span>Men</span>
+            <h3>Menswear smart casual</h3>
+            <p>Shirts, trousers, jackets, and neat staples for daily dressing.</p>
+            <button class="button add" type="button" data-add>+ Add to cart</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-product data-name="Denim and casual bundle" data-price="Ask for price">
+          <div class="product-image">
+            <img src="assets/denim-bundle.png" alt="Denim and casual clothing bundle">
+            <a href="https://www.alibaba.com/x/B21Psy?ck=pdp" target="_blank" rel="noopener">Source link</a>
+          </div>
+          <div class="product-info">
+            <span>Casual</span>
+            <h3>Denim and casual bundle</h3>
+            <p>Jeans, denim jackets, casual tops, and mixed resale bundles.</p>
+            <button class="button add" type="button" data-add>+ Add to cart</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-product data-name="Kids and teen bundle" data-price="Ask for price">
+          <div class="product-image">
+            <img src="assets/kids-bundle.png" alt="Kids and teen clothing bundle">
+            <a href="https://www.alibaba.com/x/B21Psy?ck=pdp" target="_blank" rel="noopener">Source link</a>
+          </div>
+          <div class="product-info">
+            <span>Family</span>
+            <h3>Kids and teen bundle</h3>
+            <p>Comfortable casual clothing options for children and teenagers.</p>
+            <button class="button add" type="button" data-add>+ Add to cart</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="moving-section" aria-label="Auto moving clothing gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">New arrivals feeling</p>
+        <h2>A moving rail for quick browsing.</h2>
+      </div>
+      <div class="marquee">
+        <div class="marquee-track">
+          <img src="assets/ladieswear.png" alt="Ladieswear">
+          <img src="assets/menswear.png" alt="Menswear">
+          <img src="assets/denim-bundle.png" alt="Denim bundle">
+          <img src="assets/kids-bundle.png" alt="Kids bundle">
+          <img src="assets/fashion-hero.png" alt="Boutique display">
+          <img src="assets/ladieswear.png" alt="">
+          <img src="assets/menswear.png" alt="">
+          <img src="assets/denim-bundle.png" alt="">
+          <img src="assets/kids-bundle.png" alt="">
+          <img src="assets/fashion-hero.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="how" id="how">
+      <div class="source-card reveal">
+        <p class="eyebrow">Alibaba + WhatsApp flow</p>
+        <h2>See something you like, add it, then send the cart.</h2>
+        <p>Customers can browse the Alibaba source link for inspiration, add local clothing categories to the cart, and send a clean order message to Faithfull Medend on WhatsApp.</p>
+        <div class="source-actions">
+          <a class="button dark" href="https://www.alibaba.com/x/B21Psy?ck=pdp" target="_blank" rel="noopener">Open Alibaba</a>
+          <button class="button ghost dark-line" type="button" data-cart-open>Open Cart</button>
+        </div>
+      </div>
+
+      <div class="steps reveal">
+        <div>
+          <span>01</span>
+          <h3>Choose clothing</h3>
+          <p>Tap add to cart on the items or categories you want.</p>
+        </div>
+        <div>
+          <span>02</span>
+          <h3>Check source</h3>
+          <p>Use the Alibaba link for product ideas and sourcing reference.</p>
+        </div>
+        <div>
+          <span>03</span>
+          <h3>Send WhatsApp</h3>
+          <p>Your cart becomes a ready message to 0788160528.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner reveal">
+        <p class="eyebrow">Visit or call</p>
+        <h2>Faithfull Medend Buying & Selling of Clothing</h2>
+        <address>29050 Chegutu</address>
+        <div class="hero-actions">
+          <a class="button primary" href="tel:0788160528">Call 0788160528</a>
+          <a class="button ghost" href="https://wa.me/263788160528?text=Hello%20Faithfull%20Medend%2C%20I%20would%20like%20to%20ask%20about%20clothing." target="_blank" rel="noopener">WhatsApp Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" aria-label="Shopping cart" data-cart-drawer>
+    <div class="cart-head">
+      <div>
+        <span>Your cart</span>
+        <strong data-cart-summary>0 items</strong>
+      </div>
+      <button type="button" aria-label="Close cart" data-cart-close>x</button>
+    </div>
+    <div class="cart-items" data-cart-items>
+      <p class="empty-cart">Your cart is empty. Add clothing items to start.</p>
+    </div>
+    <div class="cart-foot">
+      <a class="button dark full" href="https://www.alibaba.com/x/B21Psy?ck=pdp" target="_blank" rel="noopener">View Alibaba Source</a>
+      <a class="button primary full disabled" href="#" data-whatsapp-checkout target="_blank" rel="noopener">Send Cart on WhatsApp</a>
+    </div>
+  </aside>
+  <button class="cart-backdrop" type="button" aria-label="Close cart" data-cart-backdrop></button>
+
+  <footer class="site-footer">
+    <p>Faithfull Medend Clothing Store</p>
+    <a href="tel:0788160528">0788160528</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
